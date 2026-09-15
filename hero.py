@@ -19,4 +19,4 @@ class Hero:
         
     def is_alive(self):
         # Return a Boolean based on this Hero's health.
-        return self.health >0
+        return self.health > 0
