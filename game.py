@@ -26,12 +26,11 @@ def main():
 
     print(f"{hero.name} enters the arena with {hero.health} health.")
 
-
+    print("Bibble attacks ")
     bibble = Hero("BIBBLE)")
     heroAttack = bibble.attack()
     goblin.take_damage(heroAttack)
 
-    print("Bibble attacks ")
     tt = Goblin("Tripe T")
     goblinAttack = tt.attack()
     print("Tripe T a")
